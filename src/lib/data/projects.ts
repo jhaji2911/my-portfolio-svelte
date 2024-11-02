@@ -4,20 +4,23 @@ import type { Project } from '../types';
 
 export const items: Array<Project> = [
 	{
-		slug: 'slick-portfolio-angular',
+		slug: 'ai-resume-analyzer',
 		color: '#5e95e3',
-		description:
-			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore non dolores voluptatibus vitae praesentium aperiam, iure laboriosam repellendus sunt explicabo pariatur totam enim, nihil animi quisquam. Sit vero quod laborum!',
-		shortDescription:
-			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore non dolores voluptatibus vitae praesentium aperiam, iure laboriosam repellendus sunt explicabo pariatur totam enim, nihil animi quisquam. Sit vero quod laborum!',
+		description: `Developed a transcription service leveraging Whisper.cpp for accurate speech-to-text conversion.
+Implemented Python TTS to convert text to natural-sounding speech, providing an end-to-end
+solution for audio processing.
+Created a cutting-edge proof of concept using local LLMs with LangChain in Node.js for custom
+tasks without added costs.`,
+		shortDescription: `Created a cutting-edge proof of concept using local LLMs with LangChain in Node.js for custom
+tasks without added costs.`,
 		links: [{ to: 'https://github.com/RiadhAdrani/slick-portfolio-svelte', label: 'GitHub' }],
 		logo: Assets.Unknown,
-		name: 'Slick Portfolio',
+		name: 'AI Resume Analyzer',
 		period: {
 			from: new Date()
 		},
-		skills: getSkills('angular', 'ts', 'tailwind'),
-		type: 'Website Template'
+		skills: getSkills('nodejs', 'ts', 'reactjs'),
+		type: 'Full stack app'
 	},
 	{
 		slug: 'slick-portfolio-svelte',

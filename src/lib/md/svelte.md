@@ -29,12 +29,4 @@ Svelte is :
 <button on:click={() => count = count + 1}>Count</button>
 ```
 
-### Heading 3
-
-#### Heading 4
-
-##### Heading 5
-
-###### Heading 6
-
 > Svelte is a free and open-source front end component framework or language created by Rich Harris and maintained by the Svelte core team members.

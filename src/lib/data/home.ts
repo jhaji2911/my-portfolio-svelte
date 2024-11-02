@@ -3,39 +3,39 @@ import { getSkills } from './skills';
 
 export const title = 'Home';
 
-export const name = 'Name';
+export const name = 'Nishant';
 
-export const lastName = 'LastName';
+export const lastName = 'Jha';
 
 export const description =
-	'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti, rerum. Debitis accusantium deleniti enim iste dignissimos? Similique, exercitationem! Odit vero, numquam quae ratione maxime sunt reiciendis laudantium quaerat iure ipsum!';
+	`A seasoned full-stack developer with a passion for solving complex
+backend problems. With extensive experience in various JavaScript
+frameworks and Rust, I excel in creating scalable, efficient, and secure
+solutions. As a team lead, I collaborate with clients and partners to
+craft practical solutions that blend innovation with excellence`;
 
 export const links: Array<{ platform: Platform; link: string }> = [
-	{ platform: Platform.GitHub, link: 'https://github.com/' },
+	{ platform: Platform.GitHub, link: 'https://github.com/jhaji2911' },
 	{
 		platform: Platform.Linkedin,
-		link: 'https://www.linkedin.com/'
+		link: 'https://www.linkedin.com/in/nishant-jha-29112000/'
 	},
 	{
-		platform: Platform.Twitter,
-		link: 'https://twitter.com/'
+		platform: Platform.X,
+		link: 'https://x.com/nonishantjha/'
 	},
 	{
 		platform: Platform.StackOverflow,
-		link: 'https://stackoverflow.com/'
+		link: 'https://stackoverflow.com/users/14529843/nishant-jha'
 	},
 	{
 		platform: Platform.Email,
-		link: 'riadh_adrani@hotmail.fr'
+		link: 'jhanishant2000@gmail.com'
 	},
 	{
 		platform: Platform.Youtube,
-		link: 'https://www.youtube.com'
+		link: 'https://www.youtube.com/channel/UCrEfVEpnuhHJWDC2_54jDNg'
 	},
-	{
-		platform: Platform.Facebook,
-		link: 'https://www.facebook.com'
-	}
 ];
 
-export const skills = getSkills('js', 'css', 'html', 'reactjs', 'sass', 'svelte', 'ts');
+export const skills = getSkills('js', 'nodejs', 'reactjs','vue', 'sass', 'ts', 'rust', 'svelte');
