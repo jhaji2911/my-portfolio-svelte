@@ -1,4 +1,4 @@
-import{P as t}from"./types.62675a58.js";import{g as a}from"./skills.d24c0499.js";const e="Home",i="Nishant",o="Jha",l=`A seasoned full-stack developer with a passion for solving complex
+import{P as t}from"./types.62675a58.js";import{g as a}from"./skills.f70b3417.js";const e="Home",i="Nishant",o="Jha",l=`A seasoned full-stack developer with a passion for solving complex
 backend problems. With extensive experience in various JavaScript
 frameworks and Rust, I excel in creating scalable, efficient, and secure
 solutions. As a team lead, I collaborate with clients and partners to
