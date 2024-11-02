@@ -33,6 +33,7 @@ const Assets = {
 	TypeScript: a('ts.png'),
 	VueJs: a('vue.png'),
 	ReactJs: a('react.svg'),
+	ReactNative: a('react-native.svg'),
 	Dart: a('dart.png'),
 	Kotlin: a('kotlin.png'),
 	Python: a('python.png'),
@@ -70,7 +71,8 @@ const Assets = {
 	Jest: a('jest.png'),
 	Unocss: a('unocss.svg'),
 	Ruvy: a('ruvy.svg'),
-	Postcss: a('postcss.svg')
+	Postcss: a('postcss.svg'),
+	bluebenz: a('bluebenz.png'),
 };
 
 export default Assets;

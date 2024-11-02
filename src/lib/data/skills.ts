@@ -2,6 +2,7 @@ import Assets from './assets';
 import type { Skill, SkillCategory } from '../types';
 import svelte from '../md/svelte.md?raw';
 import react from '../md/react.md?raw';
+import reactNative from '../md/react_native.md?raw';
 import vue from '../md/vue.md?raw';
 import node from '../md/node.md?raw';
 import rust from '../md/rust.md?raw';
@@ -101,6 +102,14 @@ export const items = [
 		logo: Assets.ReactJs,
 		name: 'React Js',
 		category: 'library'
+	}),
+	defineSkill({
+		slug: 'react-native',
+		color: 'cyan',
+		description:reactNative,
+		logo: Assets.ReactNative,
+		name: 'React Native',
+		category: 'framework'
 	}),
 	defineSkill({
 		slug: 'vue',

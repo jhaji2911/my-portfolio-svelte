@@ -4,50 +4,44 @@ import { ContractType, type Experience } from '../types';
 
 export const items: Array<Experience> = [
 	{
+		slug: 'software-developer',
+		company: 'Bluebenz Digitization',
+		description: 'Crafted solutions and made impact on lives, while still having fun',
+		contract: ContractType.FullTime,
+		type: 'Software Development',
+		location: 'Pune',
+		period: { from: new Date('05/01/2021') },
+		skills: getSkills('reactjs', 'ts', 'react-native', 'vue', 'nodejs'),
+		name: 'Senior Software developer',
+		color: 'blue',
+		links: [{
+			to: 'https://bluebenz.com/',
+			label: 'bluebenz',
+			newTab: true,
+		}],
+		logo: Assets.bluebenz,
+		shortDescription: 'Crafted solutions and made impact on lives, while still having fun'
+	},
+	{
 		slug: 'open-sourcer',
 		company: 'Self-employed',
-		description: 'Creating awesome tools for developers.',
+		description: 'Created some awesome tools and participated in PRs or feature requests',
 		contract: ContractType.SelfEmployed,
 		type: 'Software Development',
-		location: 'Home',
-		period: { from: new Date() },
-		skills: getSkills('ts', 'js'),
+		location: 'Pune & Mumbai',
+		period: { from: new Date('10/01/2020') },
+		skills: getSkills('ts','svelte', 'rust' ,'nodejs', 'reactjs'),
 		name: 'Open Source Developer',
 		color: 'red',
-		links: [],
+		links: [{
+				to: 'https://github.com/jhaji2911?tab=repositories',
+				label: 'my work(well some of it is 🤥)',
+				newTab: true,
+			}],
 		logo: Assets.Unknown,
-		shortDescription: 'Creating awesome tools for developers.'
+		shortDescription: 'Created some awesome tools and participated in PRs or feature requests'
 	},
-	{
-		slug: 'software-freelance',
-		company: 'Self-employed',
-		description: 'Creating awesome applications for customers.',
-		contract: ContractType.Freelance,
-		type: 'Software Development',
-		location: 'Home',
-		period: { from: new Date() },
-		skills: getSkills('svelte', 'ts', 'sass', 'css', 'html', 'js'),
-		name: 'Freelancer',
-		color: 'blue',
-		links: [],
-		logo: Assets.Unknown,
-		shortDescription: 'Creating awesome applications for customers.'
-	},
-	{
-		slug: 'software-freelance-junior',
-		company: 'Self-employed',
-		description: 'Creating awesome applications for customers.',
-		contract: ContractType.Freelance,
-		type: 'Software Development',
-		location: 'Home',
-		period: { from: new Date(2022, 0, 1), to: new Date() },
-		skills: getSkills('css', 'html', 'js'),
-		name: 'Junior Freelancer',
-		color: 'green',
-		links: [],
-		logo: Assets.Unknown,
-		shortDescription: 'Creating awesome applications for customers.'
-	}
+	
 ];
 
 export const title = 'Experience';
