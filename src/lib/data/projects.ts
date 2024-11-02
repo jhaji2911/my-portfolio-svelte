@@ -8,7 +8,7 @@ export const items: Array<Project> = [
 		color: '#5e95e3',
 		description: `Created the app from scratch starting from orchestrating the architecture, frontend and backend, developed APIs to persist generated data. Designed Schema for backend structure. Created a cutting-edge proof of concept using local LLMs with LangChain in Node.js for custom tasks without added costs.`,
 		shortDescription: `Cutting-edge proof of concept using local LLMs with LangChain in Node.js for custom tasks.`,
-		links: [{ to: 'https://github.com/RiadhAdrani/slick-portfolio-svelte', label: 'GitHub' }],
+		links: [{ to: 'https://github.com/jhaji2911/AI-resume-analyzer', label: 'GitHub' }],
 		logo: Assets.NodeJs,
 		name: 'AI Resume Analyzer',
 		period: {
