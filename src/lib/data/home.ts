@@ -7,12 +7,7 @@ export const name = 'Nishant';
 
 export const lastName = 'Jha';
 
-export const description =
-	`A seasoned full-stack developer with a passion for solving complex
-backend problems. With extensive experience in various JavaScript
-frameworks and Rust, I excel in creating scalable, efficient, and secure
-solutions. As a team lead, I collaborate with clients and partners to
-craft practical solutions that blend innovation with excellence`;
+export const description = `A skilled full-stack developer focused on complex backend challenges, known for crafting scalable, secure solutions. With expertise in JavaScript frameworks and Rust, they drive innovation and deliver practical, high-quality results through strong client and team collaboration.`;
 
 export const links: Array<{ platform: Platform; link: string }> = [
 	{ platform: Platform.GitHub, link: 'https://github.com/jhaji2911' },
